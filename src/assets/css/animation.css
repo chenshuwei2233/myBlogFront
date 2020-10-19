@@ -1,0 +1,111 @@
+.animation-in {
+		animation: myfirst 0.5s;
+		-moz-animation: myfirst 0.5s;	/* Firefox */
+		-webkit-animation: myfirst 0.5s;	/* Safari 和 Chrome */
+		-o-animation: myfirst 0.5s;	/* Opera */
+		
+	}
+	.animation-out {
+		animation: mytwo 0.5s;
+		-moz-animation: mytwo 0.5s;	/* Firefox */
+		-webkit-animation: mytwo 0.5s;	/* Safari 和 Chrome */
+		-o-animation: mytwo 0.5s;	/* Opera */
+		
+	}
+	@keyframes myfirst {
+		from {
+			width: 140px;
+		}
+	
+		to {
+			width: 240px;
+		}
+	}
+	
+	@-moz-keyframes myfirst
+	
+	/* Firefox */
+		{
+		from {
+			width: 140px;
+		}
+	
+		to {
+			width: 240px;
+		}
+	}
+	
+	@-webkit-keyframes myfirst
+	
+	/* Safari 和 Chrome */
+		{
+		from {
+			width: 140px;
+		}
+	
+		to {
+			width: 240px;
+		}
+	}
+	
+	@-o-keyframes myfirst
+	
+	/* Opera */
+		{
+		from {
+			width: 140px;
+		}
+	
+		to {
+			width: 240px;
+		}
+	}
+	
+	@keyframes mytwo {
+		from {
+			width: 240px;
+		}
+	
+		to {
+			width: 140px;
+		}
+	}
+	
+	@-moz-keyframes mytwo
+	
+	/* Firefox */
+		{
+		from {
+			width: 240px;
+		}
+	
+		to {
+			width: 140px;
+		}
+	}
+	
+	@-webkit-keyframes mytwo
+	
+	/* Safari 和 Chrome */
+		{
+		from {
+			width: 240px;
+		}
+	
+		to {
+			width: 140px;
+		}
+	}
+	
+	@-o-keyframes mytwo
+	
+	/* Opera */
+		{
+		from {
+			width: 240px;
+		}
+	
+		to {
+			width: 140px;
+		}
+	}
